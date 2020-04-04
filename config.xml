@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+    <widget xmlns   = "http://www.w3.org/ns/widgets"
+        xmlns:gap   = "http://phonegap.com/ns/1.0"
+        id          = "lighting.splodge23.edu.mit.scratch"
+        versionCode = "10" 
+        version     = "1.0.0" >
+     <preference name=""phonegap-version"" value=""cli-9.0.0"" />
+     <preference name="Fullscreen" value="true" />
+     <preference name="orientation" value="landscape"/>
+    <name>Lighting</name>
+    <description>
+Flashs blue or green
+    </description>
+    <author href="http://scratch.mit.edu/users/splodge23" email="samuel.ryan.cz@gmail.com">
+        splodge23
+    </author>
+</widget>
