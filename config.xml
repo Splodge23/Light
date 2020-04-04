@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8" ?>
     <widget xmlns   = "http://www.w3.org/ns/widgets"
         xmlns:gap   = "http://phonegap.com/ns/1.0"
-        id          = "lighting.splodge23.edu.mit.scratch"
+        id          = "light.splodge23.edu.mit.scratch"
         versionCode = "10" 
         version     = "1.0.0" >
 
 "<preference name=""phonegap-version"" value=""cli-9.0.0"" />"
-    <name>Lighting</name>
+    <name>Light</name>
     <description>
 Flashs blue or green
     </description>
