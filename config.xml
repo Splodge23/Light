@@ -4,12 +4,13 @@
         id          = "light.splodge23.edu.mit.scratch"
         versionCode = "10" 
         version     = "1.0.0" >
-    <preference name=""phonegap-version"" value=""cli-9.0.0"" />
+     <preference name="phonegap-version" value="cli-9.0.0" />
     <name>Light</name>
     <description>
-Flashs blue or green
+Flashs green or blue
     </description>
     <author href="http://scratch.mit.edu/users/splodge23" email="samuel.ryan.cz@gmail.com">
         splodge23
     </author>
+        <icon src="icon.png"/>
 </widget>
