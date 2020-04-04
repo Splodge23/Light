@@ -1,0 +1,23 @@
+<HTML>
+    <head>
+        <title> Lighting </title>
+    </head>
+    <body>
+        <canvas id=myCanvas width=screen.width height=screen.height style="background-color: White;" onclick="Go()"> </canvas>
+        <script>
+        var ctx = myCanvas.getContext("2d"); 
+        function Pink(){
+            ctx.fillStyle="White";
+            ctx.fillRect(0,0,screen.width,screen.height)
+        }
+        function Go(){
+            if(1==Math.floor((Math.random()*2)+1)){
+            ctx.fillStyle="SkyBlue"}
+            else{
+            ctx.fillStyle="ForestGreen"}
+            ctx.fillRect(0,0,screen.width,screen.height);
+            setTimeout(Pink,100)
+            }
+        </script>
+    </body>
+</html> 
