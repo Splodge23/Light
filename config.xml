@@ -4,6 +4,8 @@
         id          = "light.splodge23.edu.mit.scratch"
         versionCode = "10" 
         version     = "1.0.0" >
+     <preference name="Fullscreen" value="true" />
+     <preference name="orientation" value="landscape"/>
      <preference name="phonegap-version" value="cli-9.0.0" />
     <name>Light</name>
     <description>
