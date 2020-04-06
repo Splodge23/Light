@@ -1,14 +1,14 @@
 <HTML>
     <head>
-        <title> Lighting </title>
+        <title> Light </title>
     </head>
     <body>
-        <canvas id=myCanvas width=maxWidth height=maxHeight style="background-color: White;" onclick="Go()"> </canvas>
+        <canvas id=myCanvas width=720 height=360 style="background-color: Pink;" onclick="Go()"> </canvas>
         <script>
         var ctx = myCanvas.getContext("2d"); 
         function Pink(){
             ctx.fillStyle="White";
-            ctx.fillRect(0,0,screen.width,screen.height)
+            ctx.fillRect(10,10,myCanvas.width-20,myCanvas.height-20)
         }
         function Go(){
             if(1==Math.floor((Math.random()*2)+1)){
